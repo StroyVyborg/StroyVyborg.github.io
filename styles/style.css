@@ -1,0 +1,101 @@
+﻿#mainmenu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+  background:#413F3C; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+#mainmenu ul li  a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#413F3C; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 40px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid black; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#mainmenu ul li a:hover {
+  background:#444;/*добавляем эффект при наведении*/
+}
+#mainmenu ul li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+img#Fimg {
+	width: 1680px;
+}
+ .rightpic  {
+       float: right;
+       margin: 0 0 5px 5px;
+    }
+	.phonepic {
+    margin: 0 0 0px 0px;
+	width: 0px;
+	height: 0px:
+	}
+@media(min-width: 0px) and (max-width: 380px) {
+.nachalo img {
+	width: 375px;
+}
+img#rightpic {
+	width: 300px;
+	height: 281px;
+}
+#mainmenu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+  background:#413F3C; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+#mainmenu ul li  a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#413F3C; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 5px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid black; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#mainmenu ul li a:hover {
+  background:#444;/*добавляем эффект при наведении*/
+}
+#mainmenu ul li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+.zagolovok {
+	text-align: left;
+	MARGIN-top: 50px;
+	padding: 0px;
+}
+.rightpic {
+    margin: 0 0 0px 0px;
+	width: 0px;
+	height: 0px:
+}
+.phonepic {
+    margin: 0 0 0px 0px;
+	width: 300px;
+	height: 200px:
+	text-align: center;
+}
+}
+@media(min-width: 380px) and (max-width: 1025px) {
+ .nachalo img {
+	width: 1024px;
+	}
+}
+@media(min-width: 1025px) and (max-width: 1500px) {
+ .nachalo img {
+	width: 1500px;
+	}
+}
